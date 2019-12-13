@@ -2,9 +2,9 @@
 jobs:
 - name: "global"
   connections:
-  - url: 'jdbc:oracle:thin:@docker-vm:1521/ORCLPDB1'
+  - url: 'jdbc:oracle:thin:@//127.0.0.1:1521/XE'
     username: 'system'
-    password: 'tosRDJnLR4Y=1'
+    password: 'oracle'
   queries:
   - name: "db_users"
     help: "Database Users"
